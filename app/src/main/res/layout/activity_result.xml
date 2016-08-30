@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidapptutorial.andy.easyapp.ResultActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Weather Icon :"
+        android:id="@+id/weatherIconLabel" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/weatherIcon"
+        android:layout_toRightOf="@id/weatherIconLabel" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="City Name :"
+        android:id="@+id/cityNameLabel"
+        android:layout_below="@id/weatherIconLabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityName"
+        android:layout_below="@id/weatherIconLabel"
+        android:layout_toRightOf="@id/cityNameLabel"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="City ID :"
+        android:id="@+id/cityIdLabel"
+        android:layout_below="@id/cityNameLabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityId"
+        android:layout_below="@id/cityNameLabel"
+        android:layout_toRightOf="@id/cityIdLabel"/>
+
+
+</RelativeLayout>

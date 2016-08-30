@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Easyapp</string>
+
+    <string name="loading">Loading...</string>
+    <string name="network_error">Network Error. Please try again later.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>
